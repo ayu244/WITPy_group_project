@@ -1,13 +1,36 @@
 # Contents of ~/my_app/main_page.py
 import streamlit as st
+import requests
+
+from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie_spinner
 
 st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
 st.title('Privasi dalam Sosial Media')
 
-st.header('Kelompok 9: #nama kelompok')
-st.subheader('1. Ayu Edwina')
-st.subheader('2. Melisa Aderia')
-st.subheader('3. Ondina Simbolon')
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+col1, col2 = st.columns(2)
+
+with col1:
+    lottie_url = "https://assets9.lottiefiles.com/packages/lf20_llckxtas.json"
+    lottie_json = load_lottieurl(lottie_url)
+    st_lottie(lottie_json)
+
+with col2:
+    st.header('Kelompok 9: #nama kelompok')
+    st.subheader('1. Ayu Edwina')
+    st.subheader('2. Melisa Aderia')
+    st.subheader('3. Ondina Simbolon')
+
+
+
+
+
 

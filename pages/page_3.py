@@ -1,7 +1,11 @@
 
 import streamlit as st
 import os
+import time
 from PIL import Image
+
+with st.spinner('Wait for it...'):
+    time.sleep(2)
 
 path = os.path.dirname(__file__)
 
@@ -26,7 +30,7 @@ st.subheader("1. Carding")
 
 image_carding = Image.open(img_carding)
 
-st.image(image_carding, caption='Carding')
+st.image(image_carding, caption='Carding', width=600)
 
 st.write("Merupakan tindakan ilegal yang melakukan aktivitas berbelanja dengan menggunakan nomor dan identitas kartu kredit orang lain yang diperoleh secara ilegal. Carding adalah suatu motif pembobolan (theft) serta kecurangan (fraud) di ruang dunia maya yang dilakukan oleh carder.")
 st.write("Contoh asus:")
@@ -42,7 +46,7 @@ st.subheader("2. Hacking")
 
 image_hacking = Image.open(img_hacking)
 
-st.image(image_hacking, caption='Hacking')
+st.image(image_hacking, caption='Hacking', width=600)
 
 st.write("Merupakan kegiatan penerobosan program komputer milik orang lain.")
 st.write("Contoh kasus:")
@@ -56,7 +60,7 @@ st.subheader("3. Cracking")
 
 image_cracking = Image.open(img_cracking)
 
-st.image(image_cracking, caption='Cracking')
+st.image(image_cracking, caption='Cracking', width=600)
 
 st.write('Merupakan hacking untuk tujuan yang jahat, sebutan ini diberi untuk cracker yaitu hacker bertopi hitam _(black hat hacker)_.')
 st.write('Contoh kasus:')
@@ -73,7 +77,7 @@ st.subheader('4. Phising')
 
 image_phising = Image.open(img_phising)
 
-st.image(image_phising, caption='Phising')
+st.image(image_phising, caption='Phising', width=600)
 
 st.write('Merupakan kegiatan memancing pemakai komputer di internet agar mau memberikan informasi pribadi pada suatu website yang sudah di deface.')
 st.write('Contoh kasus:')
@@ -85,7 +89,7 @@ st.subheader('5. Spamming')
 
 image_spamming = Image.open(img_spamming)
 
-st.image(image_spamming, caption='Spamming')
+st.image(image_spamming, caption='Spamming', width=600)
 
 st.write('Merupakan tindakan pengiriman berita atau iklan  melalui surat elektronik (email) yang tidak dikehendaki. Bentuk spam email ini adalah mengirimkan surat elektronik komersial secara massal yang tidak diminta oleh si penerima email. Pengiriman spam email ini bisa dilakukan melalui _jaringan zombie_ jaringan virus yang telah menginfeksi komputer pribadi maupun kantor di seluruh dunia.')
 st.write('Solusi:')
@@ -100,7 +104,7 @@ st.subheader('6. Malware')
 
 image_malware = Image.open(img_malware)
 
-st.image(image_malware, caption='Malware')
+st.image(image_malware, caption='Malware', width=600)
 
 st.write('Merupakan program komputer yang mencari kelemahan dari suatu software.')
 st.write('Contoh kasus:')

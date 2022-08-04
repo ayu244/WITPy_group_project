@@ -1,8 +1,12 @@
-
 import streamlit as st
-
 import os
+import time
+
+from turtle import width
 from PIL import Image
+
+with st.spinner('Wait for it...'):
+    time.sleep(2)
 
 path = os.path.dirname(__file__)
 
@@ -17,7 +21,7 @@ st.header('Tips dan Trik Menjaga Privasi Online')
 
 image_hindaricc = Image.open(img_hindaricc)
 
-st.image(image_hindaricc, caption='Tips dan trik menghindari Cyber Crime')
+st.image(image_hindaricc, caption='Tips dan trik menghindari Cyber Crime', width=600)
 
 
 st.write('Terdapat beberapa tips dan trik yang boleh digunakan untuk menjaga privasi online, diantaranya:')
