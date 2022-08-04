@@ -1,11 +1,15 @@
 # Contents of ~/my_app/main_page.py
 import streamlit as st
+import time
 import requests
 
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-st.markdown("# Main page 🎈")
+with st.spinner('Wait for it...'):
+    time.sleep(2)
+
+# st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
 st.title('Privasi dalam Sosial Media')

@@ -1,19 +1,16 @@
 import streamlit as st
 import os
-import time
 
 from turtle import width
 from PIL import Image
 
-with st.spinner('Wait for it...'):
-    time.sleep(2)
 
 path = os.path.dirname(__file__)
 
 img_hindaricc = path+'/hindaricc.jpg'
 
 st.markdown("# Page 4 🎉")
-st.sidebar.markdown("# Page 4 🎉")
+st.sidebar.markdown("# Tips & Trick Menghindari cybercrime 🎉")
 
 st.title('Privasi dalam Sosial Media')
 
