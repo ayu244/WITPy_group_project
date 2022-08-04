@@ -18,6 +18,10 @@ img_malware = path+'/malware.png'
 
 st.markdown("# Page 3 🎉")
 st.sidebar.markdown("# Page 3 🎉")
+st.sidebar.header('Kelompok 9: #nama kelompok')
+st.sidebar.subheader('1. Ayu Edwina')
+st.sidebar.subheader('2. Melisa Aderia')
+st.sidebar.subheader('3. Ondina Simbolon')
 
 
 

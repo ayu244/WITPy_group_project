@@ -6,11 +6,12 @@ def main_page():
 
 def page3():
     st.markdown("# Page 3 ❄️")
-    st.sidebar.markdown("# Page 3 ❄️")
+    st.sidebar.markdown("# Page 3 ❄️")  
 
 def page4():
     st.markdown("# Page 4 🎉")
     st.sidebar.markdown("# Page 4 🎉")
+   
 
 page_names_to_funcs = {
     "Main Page": main_page,
