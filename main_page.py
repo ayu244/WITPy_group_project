@@ -12,7 +12,7 @@ with st.spinner('Wait for it...'):
 # st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
-st.title('Privasi dalam Sosial Media')
+st.title('Menjaga Privasi Online')
 
 def load_lottieurl(url: str):
     r = requests.get(url)
@@ -28,7 +28,8 @@ with col1:
     st_lottie(lottie_json)
 
 with col2:
-    st.header('Kelompok 9: #nama kelompok')
+    st.header('Kelompok 9')
+    st.header('Power Puff Girls 👩‍💻')
     st.subheader('1. Ayu Edwina')
     st.subheader('2. Melisa Aderia')
     st.subheader('3. Ondina Simbolon')

@@ -17,7 +17,7 @@ img_malware = path+'/malware.png'
 st.markdown("# Page 3 🎉")
 st.sidebar.markdown("# Jenis-jenis Cybercrime ❄️")
 
-st.title("Privasi dalam Sosial Media")
+st.title("Menjaga Privasi Online")
 
 st.header("Jenis-jenis Cyber Crime")
 

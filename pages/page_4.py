@@ -12,7 +12,7 @@ img_hindaricc = path+'/hindaricc.jpg'
 st.markdown("# Page 4 🎉")
 st.sidebar.markdown("# Tips & Trick Menghindari cybercrime 🎉")
 
-st.title('Privasi dalam Sosial Media')
+st.title('Menjaga Privasi Online')
 
 st.header('Tips dan Trik Menjaga Privasi Online')
 
