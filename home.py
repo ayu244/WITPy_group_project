@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main_page():
-    st.markdown("# Main page 🎈")
+    # st.markdown("# Main page 🎈")
     st.sidebar.markdown("# Main page 🎈")
 
 def page1():
@@ -19,14 +19,19 @@ def page3():
 def page4():
     st.markdown("# Page 4 🎉")
     st.sidebar.markdown("# Tips & Trick Menghindari cybercrime 🎉")
+
+def page5():
+    st.markdown("# Page 5 🎉")
+    st.sidebar.markdown("# Tips & Trick Menghindari cybercrime 🎉")
    
 
 page_names_to_funcs = {
-    "Main Page": main_page,
-    "Page 1": page1,
-    "Page 2": page2,
-    "Page 3": page3,
-    "Page 4": page4,
+    "Home": main_page,
+    "Privasi Online (Digital)": page1,
+    "Pengertian Cyber Security dan Cyber Crime": page2,
+    "Jenis-jenis Cybercrime": page3,
+    "Tips & Trick Menghindari cybercrime": page4,
+    "Tips & Trick Menghindari cybercrime": page5
 }
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())

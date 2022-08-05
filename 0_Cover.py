@@ -9,8 +9,9 @@ from streamlit_lottie import st_lottie_spinner
 with st.spinner('Wait for it...'):
     time.sleep(2)
 
+
 # st.markdown("# Main page 🎈")
-st.sidebar.markdown("# Main page 🎈")
+# st.sidebar.markdown("# Main page 🎈")
 
 st.title('Menjaga Privasi Online')
 

@@ -9,8 +9,8 @@ path = os.path.dirname(__file__)
 
 img_hindaricc = path+'/hindaricc.jpg'
 
-st.markdown("# Page 4 🎉")
-st.sidebar.markdown("# Tips & Trick Menghindari cybercrime 🎉")
+# st.markdown("# Page 4 🎉")
+# st.sidebar.markdown("# Tips & Trick Menghindari cybercrime 🎉")
 
 st.title('Menjaga Privasi Online')
 

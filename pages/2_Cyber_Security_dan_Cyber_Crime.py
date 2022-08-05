@@ -15,8 +15,8 @@ imagecybercrime = Image.open(img_imagecybercrime)
 img_cia = path+"/cia.png"
 imagecia = Image.open(img_cia)
 
-st.markdown("Page 2 🌺")
-st.sidebar.markdown(" Pengertian Cyber Security dan Cyber Crime 🌺")
+# st.markdown("Page 2 🌺")
+# st.sidebar.markdown(" Pengertian Cyber Security dan Cyber Crime 🌺")
 
 # Apa Yang di Maksud dengan Cyber Security dan Cyber Crime
 st.title("Cyber Security dan Cyber Crime")

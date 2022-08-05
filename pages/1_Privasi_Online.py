@@ -10,8 +10,8 @@ img_privasi = path+"/privasi.jpg"
 imageprivasi = Image.open(img_privasi)
 
 
-st.markdown("Cover 🌈")
-st.sidebar.markdown(" Pengertian Privasi 🌈")
+# st.markdown("Cover 🌈")
+# st.sidebar.markdown(" Pengertian Privasi 🌈")
 
 # Apa yang dimaksud dengan privasi online (Digital)
 st.title("Privasi Online (Digital)")
